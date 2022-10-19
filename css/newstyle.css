@@ -1,0 +1,19 @@
+*{
+    margin:0;
+}
+
+.head,h1 {
+    color: rgb(2, 92, 80);
+    background-color: grey;
+    border-color: black;
+    margin:0;
+    padding-top: 0;
+}
+
+.para {
+    margin: 0px;   
+    border-color:red ; 
+    padding: 100px;;
+    color: rgb(0, 0, 0);
+    background-color: grey;
+}
