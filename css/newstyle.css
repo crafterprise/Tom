@@ -2,18 +2,69 @@
     margin:0;
 }
 
+.menu{
+    display: flex; 
+    background:rgb(100, 100, 100);
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+
+.item {
+    margin: 10px;
+     width: 100px;
+     height: 20px;
+   
+}
+.one, .two ,.three, .four, .five {
+    min-height: 10px;
+    color:white;
+    background-color: rgb(100, 100, 100);
+  /* border: 2px solid black; */
+ 
+ 
+}
 .head,h1 {
     color: rgb(2, 92, 80);
-    background-color: grey;
-    border-color: black;
+    background-color: rgb(224, 224, 224);
+    border-color: rgb(231, 231, 231);
     margin:0;
     padding-top: 0;
+    text-align: center;
 }
 
 .para {
     margin: 0px;   
     border-color:red ; 
-    padding: 100px;;
+    padding: 30px;;
     color: rgb(0, 0, 0);
     background-color: grey;
 }
+
+.para .Title {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.section1 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-start;
+
+   }
+
+.section1a {
+    color:white;
+    /*border: 2px solid black;*/
+    padding: 50px;
+     
+}   
+.sectiontext {
+    color:white;
+      /*border: 2px solid black;*/
+      max-width: 400px;
+      padding: 50px;
+    
+}   
