@@ -115,7 +115,7 @@ body {
   margin: 0 auto;
   max-width: auto;
   background-image: url(./images/herobackground.webp),
-    url(./images/herobackground.jpg);
+    url(./images/herobackground.jpg),url(https://raw.githubusercontent.com/sketchypages/Tom/main/images/herobackground.webp),url(https://raw.githubusercontent.com/sketchypages/Tom/main/images/herobackground.jpg);
   background-size: auto;
   /* background-size: 100%; */
   background-size: cover;
